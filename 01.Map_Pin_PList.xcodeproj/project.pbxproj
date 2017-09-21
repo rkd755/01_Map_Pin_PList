@@ -12,6 +12,8 @@
 		34AA009C1F70B62000BEE520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AA009A1F70B62000BEE520 /* Main.storyboard */; };
 		34AA009E1F70B62000BEE520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AA009D1F70B62000BEE520 /* Assets.xcassets */; };
 		34AA00A11F70B62000BEE520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AA009F1F70B62000BEE520 /* LaunchScreen.storyboard */; };
+		34AA00AA1F70B63900BEE520 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AA00A91F70B63900BEE520 /* MapKit.framework */; };
+		34AA00AE1F70B9B700BEE520 /* ViewPoint3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34AA00AD1F70B9B700BEE520 /* ViewPoint3.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		34AA009D1F70B62000BEE520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34AA00A01F70B62000BEE520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34AA00A21F70B62000BEE520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34AA00A91F70B63900BEE520 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		34AA00AD1F70B9B700BEE520 /* ViewPoint3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ViewPoint3.plist; path = "../../../../MapPinPList-master 2/MapPinPLiist/ViewPoint3.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AA00AA1F70B63900BEE520 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				34AA00951F70B62000BEE520 /* 01.Map_Pin_PList */,
 				34AA00941F70B62000BEE520 /* Products */,
+				34AA00A81F70B63900BEE520 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +60,7 @@
 		34AA00951F70B62000BEE520 /* 01.Map_Pin_PList */ = {
 			isa = PBXGroup;
 			children = (
+				34AA00AD1F70B9B700BEE520 /* ViewPoint3.plist */,
 				34AA00961F70B62000BEE520 /* AppDelegate.swift */,
 				34AA00981F70B62000BEE520 /* ViewController.swift */,
 				34AA009A1F70B62000BEE520 /* Main.storyboard */,
@@ -62,6 +69,14 @@
 				34AA00A21F70B62000BEE520 /* Info.plist */,
 			);
 			path = 01.Map_Pin_PList;
+			sourceTree = "<group>";
+		};
+		34AA00A81F70B63900BEE520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34AA00A91F70B63900BEE520 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 			files = (
 				34AA00A11F70B62000BEE520 /* LaunchScreen.storyboard in Resources */,
 				34AA009E1F70B62000BEE520 /* Assets.xcassets in Resources */,
+				34AA00AE1F70B9B700BEE520 /* ViewPoint3.plist in Resources */,
 				34AA009C1F70B62000BEE520 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
